@@ -783,3 +783,13 @@ $settings['tracer_plugin'] = 'stopwatch_tracer';
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php') && getenv('IS_DDEV_PROJECT') == 'true') {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+// Office 365 connector client ID.
+$settings['o365']['api_settings']['client_id'] = '2a6fc6ed-30f2-4fb3-a3c5-19c9e1f140e9';
+// Office 365 connector client secret.
+$settings['o365']['api_settings']['client_secret'] = '65cbdf4d-0168-43ca-978a-2595c1b09282';
+// Office 365 connector tenant ID.
+$settings['o365']['api_settings']['tenant_id'] = '34e9bbe3-cc50-438f-bfb3-a767d3100213';
+// Office 365 connector redirect URL after login.
+$config['o365.api_settings']['redirect_login'] = 'https://packt.ddev.site/';
+// Office 365 connector redirect callback URI.
+$config['o365.api_settings']['redirect_callback'] = 'https://packt.ddev.site//o365/callback';

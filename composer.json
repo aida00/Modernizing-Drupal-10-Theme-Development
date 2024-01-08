@@ -29,6 +29,7 @@
         "drupal/formdazzle": "^3.0",
         "drupal/monolog": "3.0.0",
         "drupal/next": "^1.6",
+        "drupal/o365": "^5.0",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
         "drupal/restui": "^1.21",
